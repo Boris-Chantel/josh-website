@@ -1,12 +1,14 @@
-.nav {
+.navigation {
   background-color: black;
+  width: 100%;
+  left: 0%;
 }
 
 .pull-left li {
   margin: -20px;
 }
 
-.nav a {
+.navigation a {
   color: #5a5a5a;
   font-size: 11px;
   font-weight: bold;
@@ -16,7 +18,7 @@
   padding: 30px;
 }
 
-.nav li {
+.navigation li {
   display: inline;
 }
 
@@ -24,7 +26,7 @@
   background-image:url(header_G.jpeg);
   height: 700px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 .jumbotron .container {
@@ -53,6 +55,7 @@
 
 .works {
   height: 200px;
+  margin-bottom: 100px;
 }
 
 .works .container {
@@ -61,8 +64,45 @@
 
 .works h2 {
   margin-top: 47px;
+  padding-bottom: 40px;
 }
 
+.works p {
+  margin-bottom: 50px;
+}
+
+.works ul {
+  text-align: center;
+  display: inline-block;
+  float: none;
+}
+
+.works li {
+  padding: 0px 20px 0px 20px;
+  background-color: white;
+}
+
+
+.nav {
+  background-color: white;
+}
+
+.space {
+  height: 500px;
+  
+
+
+}
+
+.space img {
+  padding: 0;
+  margin: 0;
+}
+
+.picture {
+  height: 150px;
+  background-color: white;
+}
 
 .neighborhood-guides {
  background-color:#efefef;
